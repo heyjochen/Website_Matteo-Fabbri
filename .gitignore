@@ -1,0 +1,9 @@
+**/.DS_Store
+tailwind.config.js
+package.json
+text
+img
+deploy
+node_modules
+dist_backup
+package-lock.json
