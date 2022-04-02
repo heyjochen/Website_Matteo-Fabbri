@@ -3826,11 +3826,6 @@ textarea.form-control.is-invalid{
   margin-right: auto;
 }
 
-.mx-2{
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -4013,6 +4008,19 @@ textarea.form-control.is-invalid{
   border-width: 0px;
 }
 
+.border-2{
+  border-width: 2px;
+}
+
+.border{
+  border-width: 1px;
+}
+
+.border-green{
+  --tw-border-opacity: 1;
+  border-color: rgb(89 105 76 / var(--tw-border-opacity));
+}
+
 .bg-gray-100{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -4026,6 +4034,11 @@ textarea.form-control.is-invalid{
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-green{
+  --tw-bg-opacity: 1;
+  background-color: rgb(89 105 76 / var(--tw-bg-opacity));
 }
 
 .object-cover{
@@ -4062,13 +4075,14 @@ textarea.form-control.is-invalid{
   padding-bottom: 3rem;
 }
 
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-
-.pt-12{
-  padding-top: 3rem;
 }
 
 .text-center{
@@ -4085,9 +4099,9 @@ textarea.form-control.is-invalid{
   line-height: 1.5rem;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-sm{
@@ -4153,6 +4167,11 @@ textarea.form-control.is-invalid{
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+.text-green{
+  --tw-text-opacity: 1;
+  color: rgb(89 105 76 / var(--tw-text-opacity));
+}
+
 .outline{
   outline-style: solid;
 }
@@ -4171,6 +4190,11 @@ textarea.form-control.is-invalid{
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-green:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(89 105 76 / var(--tw-bg-opacity));
+}
+
 .hover\:text-gray-900:hover{
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
@@ -4184,6 +4208,16 @@ textarea.form-control.is-invalid{
 .hover\:text-gray-500:hover{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.hover\:text-green:hover{
+  --tw-text-opacity: 1;
+  color: rgb(89 105 76 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus{
