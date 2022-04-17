@@ -3859,10 +3859,6 @@ textarea.form-control.is-invalid{
   margin-bottom: 0.75rem;
 }
 
-.mb-6{
-  margin-bottom: 1.5rem;
-}
-
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -3875,8 +3871,8 @@ textarea.form-control.is-invalid{
   margin-bottom: 8rem;
 }
 
-.mb-2{
-  margin-bottom: 0.5rem;
+.mb-6{
+  margin-bottom: 1.5rem;
 }
 
 .block{
@@ -3921,6 +3917,10 @@ textarea.form-control.is-invalid{
 
 .max-w-xl{
   max-width: 36rem;
+}
+
+.max-w-6xl{
+  max-width: 72rem;
 }
 
 .max-w-full{
@@ -4276,11 +4276,6 @@ textarea.form-control.is-invalid{
     padding-right: 3rem;
   }
 
-  .md\:px-8{
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
   .md\:text-left{
     text-align: left;
   }
@@ -4331,11 +4326,6 @@ textarea.form-control.is-invalid{
   .lg\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-  }
-
-  .lg\:px-12{
-    padding-left: 3rem;
-    padding-right: 3rem;
   }
 
   .lg\:pr-6{
