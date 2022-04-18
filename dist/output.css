@@ -3847,8 +3847,8 @@ textarea.form-control.is-invalid{
   margin-top: 1rem;
 }
 
-.mb-12{
-  margin-bottom: 3rem;
+.mb-10{
+  margin-bottom: 2.5rem;
 }
 
 .mt-8{
@@ -3873,6 +3873,10 @@ textarea.form-control.is-invalid{
 
 .mb-32{
   margin-bottom: 8rem;
+}
+
+.mb-12{
+  margin-bottom: 3rem;
 }
 
 .mb-6{
@@ -4217,12 +4221,12 @@ textarea.form-control.is-invalid{
     order: 9999;
   }
 
-  .md\:order-1{
-    order: 1;
-  }
-
   .md\:order-2{
     order: 2;
+  }
+
+  .md\:order-1{
+    order: 1;
   }
 
   .md\:mb-0{
@@ -4277,11 +4281,6 @@ textarea.form-control.is-invalid{
 }
 
 @media (min-width: 1024px){
-  .lg\:my-24{
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-  }
-
   .lg\:mb-0{
     margin-bottom: 0px;
   }
