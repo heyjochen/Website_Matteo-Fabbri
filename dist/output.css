@@ -4221,6 +4221,10 @@ textarea.form-control.is-invalid{
     order: 1;
   }
 
+  .md\:order-2{
+    order: 2;
+  }
+
   .md\:mb-0{
     margin-bottom: 0px;
   }
@@ -4273,6 +4277,11 @@ textarea.form-control.is-invalid{
 }
 
 @media (min-width: 1024px){
+  .lg\:my-24{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
   .lg\:mb-0{
     margin-bottom: 0px;
   }
