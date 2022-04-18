@@ -3859,6 +3859,10 @@ textarea.form-control.is-invalid{
   margin-bottom: 0.75rem;
 }
 
+.mb-24{
+  margin-bottom: 6rem;
+}
+
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -3923,20 +3927,12 @@ textarea.form-control.is-invalid{
   max-width: 72rem;
 }
 
-.max-w-full{
-  max-width: 100%;
-}
-
 .shrink-0{
   flex-shrink: 0;
 }
 
 .grow-0{
   flex-grow: 0;
-}
-
-.grow{
-  flex-grow: 1;
 }
 
 .basis-auto{
@@ -4005,10 +4001,6 @@ textarea.form-control.is-invalid{
   border-radius: 0.5rem;
 }
 
-.rounded-xl{
-  border-radius: 0.75rem;
-}
-
 .border{
   border-width: 1px;
 }
@@ -4029,16 +4021,6 @@ textarea.form-control.is-invalid{
 
 .bg-no-repeat{
   background-repeat: no-repeat;
-}
-
-.object-cover{
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.object-center{
-  -o-object-position: center;
-     object-position: center;
 }
 
 .p-5{
@@ -4078,6 +4060,10 @@ textarea.form-control.is-invalid{
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.pb-12{
+  padding-bottom: 3rem;
 }
 
 .pb-24{
@@ -4308,9 +4294,9 @@ textarea.form-control.is-invalid{
     padding-right: 6rem;
   }
 
-  .lg\:py-12{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+  .lg\:py-24{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 
   .lg\:px-20{
@@ -4318,14 +4304,14 @@ textarea.form-control.is-invalid{
     padding-right: 5rem;
   }
 
-  .lg\:py-24{
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-
   .lg\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .lg\:py-12{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .lg\:pr-6{
