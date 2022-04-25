@@ -3826,11 +3826,6 @@ textarea.form-control.is-invalid{
   margin-right: auto;
 }
 
-.my-24{
-  margin-top: 6rem;
-  margin-bottom: 6rem;
-}
-
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -3855,8 +3850,8 @@ textarea.form-control.is-invalid{
   margin-bottom: 0.75rem;
 }
 
-.mb-24{
-  margin-bottom: 6rem;
+.mt-14{
+  margin-top: 3.5rem;
 }
 
 .mb-8{
@@ -3867,16 +3862,16 @@ textarea.form-control.is-invalid{
   margin-top: 0.5rem;
 }
 
-.mb-32{
-  margin-bottom: 8rem;
-}
-
 .mb-12{
   margin-bottom: 3rem;
 }
 
 .mb-6{
   margin-bottom: 1.5rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
 }
 
 .block{
@@ -4062,6 +4057,11 @@ textarea.form-control.is-invalid{
   padding-right: 1.5rem;
 }
 
+.py-24{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .pb-12{
   padding-bottom: 3rem;
 }
@@ -4159,11 +4159,6 @@ textarea.form-control.is-invalid{
 .text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.underline{
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
 }
 
 .shadow-lg{
@@ -4316,11 +4311,6 @@ textarea.form-control.is-invalid{
   .lg\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
-  }
-
-  .lg\:py-12{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
   }
 
   .lg\:pr-6{
