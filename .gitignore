@@ -9,3 +9,4 @@ dist_backup
 package-lock.json
 fullResImg
 src
+.vscode
